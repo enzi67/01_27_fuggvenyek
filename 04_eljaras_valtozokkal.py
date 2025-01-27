@@ -15,5 +15,4 @@ print(f'a(z) {kepernyore_ir()} return eredmény ')
 print(globalis_valtozo)
 # a lokalis_valtozo az eljáráson KÍVŰL nem elérhető !!!
 # print(lokalis_valtozo) # hibát eredményez !!!
-    
-    
+
