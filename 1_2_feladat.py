@@ -5,23 +5,25 @@ hogy negatív, pozitív vagy nulla-e és addig lehessen számokat megadni,
 amíg a felhasználó nem ad meg üres sztringet!
 """
 
-def masodik_feladat(num):
-
-    if num > 0:
-        print("Pozitív")
-    elif num < 0:
-        print("Negatív")
+def masodik_feladat(szam):
+    if szam > 0:
+        print("A szám pozitív.")
+    elif szam < 0:
+        print("A szám negatív.")
     else:
-        print("Nulla vagy nincs megoldás.")
+        print("A szám nulla.")
+
+def main():
+    while True:
+        num = input("Adj meg egy számot: ")
+
+        if num == '':
+            break
         
-num = int(input("Adj meg egy számot: "))
+        try:
+            szam = float(num)
+            masodik_feladat(szam)
+        except ValueError:
+            print("Hibás bemenet! Kérlek, adj meg egy számot!")
 
-run = True
-
-while run:
-    num = int(input("Adj meg egy számot: "))
-    if num == " ":
-        run = False
-        break
-
-masodik_feladat(num)
+main()
