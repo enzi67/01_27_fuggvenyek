@@ -6,4 +6,4 @@ print("Original list: ", L)
 
 print("Original list: ", L)
 print(L.sort())  # megváltoztatja az eredeti listát
-print("After sort:" ,L)
+print("After sort:" , L)
