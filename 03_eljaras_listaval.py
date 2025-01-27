@@ -5,6 +5,7 @@ def osszegzo(list):
 	    osszesen = osszesen + szam
     print('A listában lévő számok összege: ', osszesen)
 
+print(sum(list))
 szamok = [3, 5, 19, 11, 17, 1]
 osszegzo(szamok)
     
