@@ -11,6 +11,7 @@ def elso_feladat():
         print("Negativ")
     else:
         print("Nulla avyg nincs megoldás.")
+        
 szam = int(input("Adj meg egy számot: "))
 
 elso_feladat()
