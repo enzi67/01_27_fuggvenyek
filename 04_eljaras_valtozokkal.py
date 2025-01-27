@@ -10,7 +10,7 @@ def kepernyore_ir():
   
 globalis_valtozo = 'gyümölcs'
 kepernyore_ir()
-print(kepernyore_ir())
+print(f'a(z) {kepernyore_ir()} return eredmény ')
   
 print(globalis_valtozo)
 # a lokalis_valtozo az eljáráson KÍVŰL nem elérhető !!!
