@@ -20,7 +20,7 @@ run = True
 
 while run:
     num = int(input("Adj meg egy számot: "))
-    if num == 0:
+    if num == " ":
         run = False
         break
 
