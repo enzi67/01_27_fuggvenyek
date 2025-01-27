@@ -6,11 +6,11 @@ hogy negatív, pozitív vagy nulla-e!
 def elso_feladat():
 
     if szam > 0:
-        print("Pozitiv")
+        print("Pozitív")
     elif szam < 0:
-        print("Negativ")
+        print("Negatív")
     else:
-        print("Nulla avyg nincs megoldás.")
+        print("Nulla vagy nincs megoldás.")
         
 szam = int(input("Adj meg egy számot: "))
 
